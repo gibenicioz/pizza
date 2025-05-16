@@ -1,0 +1,147 @@
+body {
+  letter-spacing: 4px;
+  font-family: 'Neucha', sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #3F3D3D;
+}
+
+header {
+  text-align: center;
+  padding: 0px;
+  position: relative;
+}
+
+/* titulo logo */
+.logo {
+  font-size: 48px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+/* menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* itens do menu */
+.menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* conteudo principal */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* BLOCO GERAL DA PIZZA */
+.pizza-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #e66b6b;
+  border: 3px solid #8B2E2E;
+  border-radius: 8px;
+  margin: 60px auto;
+  padding: 20px;
+  max-width: 1200px;
+   transition: border 0.4s;
+}
+.pizza-card:hover {
+  border: 3px solid #254D66; 
+}
+
+/* imagem da pizza */
+.pizza-card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-right: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.pizza-card img:hover {
+ -webkit-transform:scale(1.1);
+ transform:scale(1.1);
+  border: 2px solid #254D66; 
+}
+
+/* bloco */
+.pizza-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+/* nome */
+.pizza-info h3 {
+  margin: 0;
+  font-size: 30px;
+}
+
+/* tipo da pizza */
+.pizza-info span {
+  font-size: 22px;
+  color: #3a1616;
+}
+
+/* descrição */
+.pizza-info p {
+  font-size: 18px;
+  margin: 12px 0 20px;
+}
+
+/* rodapé */
+.rodape {
+  background-color: #DEDEDE;
+  padding: 30px 20px;
+   margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer-icons img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.powered {
+  flex: 1;
+  text-align: center;
+}
+
+.marca {
+  text-align: right;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
